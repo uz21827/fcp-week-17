@@ -119,8 +119,8 @@ def check_rows(grid_input):
 	grid = grid_input[0]
 	for rows in grid:
 		if np.size(rows) != np.size(np.unique(rows)):
-			return False
-	return True
+			return True
+	return False
 
 def check_colums(grid_input):
 	grid_size = grid_input[1]*grid_input[2]
