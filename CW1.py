@@ -110,7 +110,7 @@ def check_solution(grid_input):
 
 	# print(check_rows(grid_input), check_colums(grid_input), check_units(grid_input))
 	if check_rows(grid_input) and check_colums(grid_input) and check_units(grid_input):
-		return True
+		return False
 	else:
 		return False
 
