@@ -1,1 +1,1 @@
-tehjt
+print("hello world")
