@@ -106,6 +106,7 @@ def check_solution(grid_input):
 	'''
 	grid_size = grid_input[1]*grid_input[2]
 	grid = grid_input[0]
+	grid22 = 1
 
 	# print(check_rows(grid_input), check_colums(grid_input), check_units(grid_input))
 	if check_rows(grid_input) and check_colums(grid_input) and check_units(grid_input):
