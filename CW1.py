@@ -136,6 +136,7 @@ def check_units(grid_input):
 	#check through every unit
 	grid_size = grid_input[1]*grid_input[2]
 	grid = grid_input[0]
+	grid2 = grind_input[1]
 	for units_row_start in range(0,grid_size,grid_input[2]):
 		for units_coloum_start in range (0,grid_size,grid_input[1]):
 			grid = np.array(grid)
